@@ -1,13 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'nested',
+  selector: 'myDetails',
   templateUrl: './component2.component.html',
   styleUrls: ['./component2.component.css']
 })
 export class Component2Component implements OnInit {
 
-  constructor() { }
+  @Input('name') Name: string;
+  @Input('occupation') Job: string;
+
+  constructor() {
+    this.Name= "fahad";
+    this.Job = "cleaner";
+   }
 
   ngOnInit() {
   }

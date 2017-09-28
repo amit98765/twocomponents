@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  myArr: number[] = [];
+  removedArr: number[]= [];
+  math = Math;
 }
