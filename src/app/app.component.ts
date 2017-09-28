@@ -10,4 +10,8 @@ export class AppComponent {
   myArr: number[] = [];
   removedArr: number[]= [];
   math = Math;
+
+
+ title2: string = "This is a bad title that is terrible";
+ 
 }
