@@ -8,10 +8,11 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app';
   myArr: number[] = [];
-  removedArr: number[]= [];
+  removedArr: number[] = [];
   math = Math;
 
 
- title2: string = "This is a bad title that is terrible";
- 
+  classname: string = "myclass";
+  title2: string = "This is a bad title that is terrible";
+
 }
